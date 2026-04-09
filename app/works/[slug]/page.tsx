@@ -36,9 +36,7 @@ export default function WorkDetailPage({ params }: { params: { slug: string } })
           ) : null}
         </section>
 
-        <section className="w-full max-w-[1048px]">
-          {renderRichText(work.content)}
-        </section>
+       
 
         <Footer />
       </div>
