@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #EBEAE6;
+  color: #2A3132;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
