@@ -310,7 +310,7 @@ export default function AboutSection() {
               <div className="stat-label">Years of experience</div>
             </div>
             <div className="stat-cell">
-              <div className="stat-num">5++</div>
+              <div className="stat-num">5+</div>
               <div className="stat-label">Products shipped</div>
             </div>
             <div className="stat-cell">
