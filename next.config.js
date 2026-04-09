@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true, // Skip ESLint on Vercel build
+  images: {
+    domains: ['images.unsplash.com'], // <- add any external hosts here
   },
-  typescript: {
-    ignoreBuildErrors: true, // Skip TS errors on Vercel build
-  },
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: true },
 };
 
 module.exports = nextConfig;

@@ -1,3 +1,17 @@
+type Work = {
+  slug: string;
+  title: string;
+  category: string;
+  subtext: string;
+  color: string;
+  coverColor: string;
+  year: string;
+  tags: string[];
+  problem: string;
+  approach: string;
+  results: string[];
+};
+
 export const works: Work[] = [
   {
   slug: 'edustream',
@@ -26,10 +40,4 @@ export const works: Work[] = [
   approach: 'Built a role-based system — teachers get a course studio with drag-and-drop modules, students get a personalized dashboard with real-time Firebase sync.',
   results: ['500+ active learners onboarded', 'Course creation time cut by 60%', '4.8 / 5 avg student satisfaction', 'Live demo & full GitHub repo'],
 },
-  
-  
 ];
-
-export function getWorkBySlug(slug: string) {
-  return works.find((work) => work.slug === slug);
-}
