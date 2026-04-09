@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { getWorkBySlug } from '@/lib/works';
-import { renderRichText } from '@/lib/renderRichText';
+
 
 export default function WorkDetailPage({ params }: { params: { slug: string } }) {
   const work = getWorkBySlug(params.slug);
