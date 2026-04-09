@@ -1,10 +1,15 @@
+// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    domains: ['images.unsplash.com'], // <- add any external hosts here
+  eslint: {
+    ignoreDuringBuilds: true,
   },
-  eslint: { ignoreDuringBuilds: true },
-  typescript: { ignoreBuildErrors: true },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    domains: ['images.unsplash.com'], // keep this if using external images
+  },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
