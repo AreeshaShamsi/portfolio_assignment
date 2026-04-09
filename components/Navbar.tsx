@@ -128,7 +128,7 @@ export default function Navbar() {
               padding: 0,
             }}
           >
-            Smruthi K S
+            Areesha Shamsi
           </button>
 
           {/* Hamburger */}
